@@ -1,0 +1,1060 @@
+1 for string multistack, 2 for Date multistack, 0 to exit:
+Enter the number of stacks to use:
+Enter the base of the main array:
+Enter the last location of the main array:
+Enter the base of useable area in main array:
+Enter the last location of useable area in main array:
+Enter the minimum percent of space wanted available to preform reallocation in decimal form:
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Braden' in stack 1...
+Successfully pushed String ' Braden' in stack 1
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Liu' in stack 1...
+Successfully pushed String ' Liu' in stack 1
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Shashidhar' in stack 1...
+Successfully pushed String ' Shashidhar' in stack 1
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Shannon' in stack 3...
+Successfully pushed String ' Shannon' in stack 3
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Garcia' in stack 4...
+Successfully pushed String ' Garcia' in stack 4
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Braden' in stack 4...
+Successfully pushed String ' Braden' in stack 4
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to pop:
+Attempting to pop stack 3...
+Popping of stack 3 successful, Result:  Shannon
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Burris' in stack 5...
+Successfully pushed String ' Burris' in stack 5
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Shannon' in stack 5...
+Successfully pushed String ' Shannon' in stack 5
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to pop:
+Attempting to pop stack 3...
+Error in stack 3: Stack Underflow
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Burris' in stack 3...
+Successfully pushed String ' Burris' in stack 3
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Ryba' in stack 1...
+Successfully pushed String ' Ryba' in stack 1
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Varol' in stack 1...
+Error on push in stack 1: Stack Overflow. Attempting reallocation...
+Stack information before reallocation: 
+Base of stack 1: 0
+Top of stack 1: 5
+Base of stack 2: 4
+Top of stack 2: 4
+Base of stack 3: 8
+Top of stack 3: 9
+Base of stack 4: 13
+Top of stack 4: 15
+Base of stack 5: 17
+Top of stack 5: 19
+Contents of memory before reallocation:
+StackSpace[-12] = 
+StackSpace[-11] = 
+StackSpace[-10] = 
+StackSpace[-9] = 
+StackSpace[-8] = 
+StackSpace[-7] = 
+StackSpace[-6] = 
+StackSpace[-5] = 
+StackSpace[-4] = 
+StackSpace[-3] = 
+StackSpace[-2] = 
+StackSpace[-1] = 
+StackSpace[0] = 
+StackSpace[1] =  Braden
+StackSpace[2] =  Liu
+StackSpace[3] =  Shashidhar
+StackSpace[4] =  Ryba
+StackSpace[5] = 
+StackSpace[6] = 
+StackSpace[7] = 
+StackSpace[8] = 
+StackSpace[9] =  Burris
+StackSpace[10] = 
+StackSpace[11] = 
+StackSpace[12] = 
+StackSpace[13] = 
+StackSpace[14] =  Garcia
+StackSpace[15] =  Braden
+StackSpace[16] = 
+StackSpace[17] = 
+StackSpace[18] =  Burris
+StackSpace[19] =  Shannon
+StackSpace[20] = 
+StackSpace[21] = 
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+StackSpace[51] = 
+StackSpace[52] = 
+StackSpace[53] = 
+StackSpace[54] = 
+StackSpace[55] = 
+StackSpace[56] = 
+StackSpace[57] = 
+StackSpace[58] = 
+StackSpace[59] = 
+StackSpace[60] = 
+Reallocation succesful, push of string ' Varol' in stack 1 successful.
+Stack information after reallocation: 
+Base of stack 1: 0
+Top of stack 1: 5
+Base of stack 2: 10
+Top of stack 2: 10
+Base of stack 3: 10
+Top of stack 3: 11
+Base of stack 4: 13
+Top of stack 4: 15
+Base of stack 5: 17
+Top of stack 5: 19
+Contents of memory after reallocation: 
+StackSpace[-12] = 
+StackSpace[-11] = 
+StackSpace[-10] = 
+StackSpace[-9] = 
+StackSpace[-8] = 
+StackSpace[-7] = 
+StackSpace[-6] = 
+StackSpace[-5] = 
+StackSpace[-4] = 
+StackSpace[-3] = 
+StackSpace[-2] = 
+StackSpace[-1] = 
+StackSpace[0] = 
+StackSpace[1] =  Braden
+StackSpace[2] =  Liu
+StackSpace[3] =  Shashidhar
+StackSpace[4] =  Ryba
+StackSpace[5] =  Varol
+StackSpace[6] = 
+StackSpace[7] = 
+StackSpace[8] = 
+StackSpace[9] =  Burris
+StackSpace[10] = 
+StackSpace[11] =  Burris
+StackSpace[12] = 
+StackSpace[13] = 
+StackSpace[14] =  Garcia
+StackSpace[15] =  Braden
+StackSpace[16] = 
+StackSpace[17] = 
+StackSpace[18] =  Burris
+StackSpace[19] =  Shannon
+StackSpace[20] = 
+StackSpace[21] = 
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+StackSpace[51] = 
+StackSpace[52] = 
+StackSpace[53] = 
+StackSpace[54] = 
+StackSpace[55] = 
+StackSpace[56] = 
+StackSpace[57] = 
+StackSpace[58] = 
+StackSpace[59] = 
+StackSpace[60] = 
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Rakowitz' in stack 3...
+Successfully pushed String ' Rakowitz' in stack 3
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Cooper' in stack 1...
+Successfully pushed String ' Cooper' in stack 1
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Smith' in stack 1...
+Successfully pushed String ' Smith' in stack 1
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' McGuire' in stack 1...
+Successfully pushed String ' McGuire' in stack 1
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Jahnke' in stack 3...
+Successfully pushed String ' Jahnke' in stack 3
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Dean' in stack 4...
+Successfully pushed String ' Dean' in stack 4
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Zhou' in stack 1...
+Successfully pushed String ' Zhou' in stack 1
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Pennick' in stack 2...
+Error on push in stack 2: Stack Overflow. Attempting reallocation...
+Stack information before reallocation: 
+Base of stack 1: 0
+Top of stack 1: 9
+Base of stack 2: 10
+Top of stack 2: 11
+Base of stack 3: 10
+Top of stack 3: 13
+Base of stack 4: 13
+Top of stack 4: 16
+Base of stack 5: 17
+Top of stack 5: 19
+Contents of memory before reallocation:
+StackSpace[-12] = 
+StackSpace[-11] = 
+StackSpace[-10] = 
+StackSpace[-9] = 
+StackSpace[-8] = 
+StackSpace[-7] = 
+StackSpace[-6] = 
+StackSpace[-5] = 
+StackSpace[-4] = 
+StackSpace[-3] = 
+StackSpace[-2] = 
+StackSpace[-1] = 
+StackSpace[0] = 
+StackSpace[1] =  Braden
+StackSpace[2] =  Liu
+StackSpace[3] =  Shashidhar
+StackSpace[4] =  Ryba
+StackSpace[5] =  Varol
+StackSpace[6] =  Cooper
+StackSpace[7] =  Smith
+StackSpace[8] =  McGuire
+StackSpace[9] =  Zhou
+StackSpace[10] = 
+StackSpace[11] =  Burris
+StackSpace[12] =  Rakowitz
+StackSpace[13] =  Jahnke
+StackSpace[14] =  Garcia
+StackSpace[15] =  Braden
+StackSpace[16] =  Dean
+StackSpace[17] = 
+StackSpace[18] =  Burris
+StackSpace[19] =  Shannon
+StackSpace[20] = 
+StackSpace[21] = 
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+StackSpace[51] = 
+StackSpace[52] = 
+StackSpace[53] = 
+StackSpace[54] = 
+StackSpace[55] = 
+StackSpace[56] = 
+StackSpace[57] = 
+StackSpace[58] = 
+StackSpace[59] = 
+StackSpace[60] = 
+Reallocation succesful, push of string ' Pennick' in stack 2 successful.
+Stack information after reallocation: 
+Base of stack 1: 0
+Top of stack 1: 9
+Base of stack 2: 10
+Top of stack 2: 11
+Base of stack 3: 12
+Top of stack 3: 15
+Base of stack 4: 16
+Top of stack 4: 19
+Base of stack 5: 19
+Top of stack 5: 21
+Contents of memory after reallocation: 
+StackSpace[-12] = 
+StackSpace[-11] = 
+StackSpace[-10] = 
+StackSpace[-9] = 
+StackSpace[-8] = 
+StackSpace[-7] = 
+StackSpace[-6] = 
+StackSpace[-5] = 
+StackSpace[-4] = 
+StackSpace[-3] = 
+StackSpace[-2] = 
+StackSpace[-1] = 
+StackSpace[0] = 
+StackSpace[1] =  Braden
+StackSpace[2] =  Liu
+StackSpace[3] =  Shashidhar
+StackSpace[4] =  Ryba
+StackSpace[5] =  Varol
+StackSpace[6] =  Cooper
+StackSpace[7] =  Smith
+StackSpace[8] =  McGuire
+StackSpace[9] =  Zhou
+StackSpace[10] = 
+StackSpace[11] =  Pennick
+StackSpace[12] =  Rakowitz
+StackSpace[13] =  Burris
+StackSpace[14] =  Rakowitz
+StackSpace[15] =  Jahnke
+StackSpace[16] =  Dean
+StackSpace[17] =  Garcia
+StackSpace[18] =  Braden
+StackSpace[19] =  Dean
+StackSpace[20] =  Burris
+StackSpace[21] =  Shannon
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+StackSpace[51] = 
+StackSpace[52] = 
+StackSpace[53] = 
+StackSpace[54] = 
+StackSpace[55] = 
+StackSpace[56] = 
+StackSpace[57] = 
+StackSpace[58] = 
+StackSpace[59] = 
+StackSpace[60] = 
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Idle' in stack 2...
+Successfully pushed String ' Idle' in stack 2
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Farrack' in stack 2...
+Error on push in stack 2: Stack Overflow. Attempting reallocation...
+Stack information before reallocation: 
+Base of stack 1: 0
+Top of stack 1: 9
+Base of stack 2: 10
+Top of stack 2: 13
+Base of stack 3: 12
+Top of stack 3: 15
+Base of stack 4: 16
+Top of stack 4: 19
+Base of stack 5: 19
+Top of stack 5: 21
+Contents of memory before reallocation:
+StackSpace[-12] = 
+StackSpace[-11] = 
+StackSpace[-10] = 
+StackSpace[-9] = 
+StackSpace[-8] = 
+StackSpace[-7] = 
+StackSpace[-6] = 
+StackSpace[-5] = 
+StackSpace[-4] = 
+StackSpace[-3] = 
+StackSpace[-2] = 
+StackSpace[-1] = 
+StackSpace[0] = 
+StackSpace[1] =  Braden
+StackSpace[2] =  Liu
+StackSpace[3] =  Shashidhar
+StackSpace[4] =  Ryba
+StackSpace[5] =  Varol
+StackSpace[6] =  Cooper
+StackSpace[7] =  Smith
+StackSpace[8] =  McGuire
+StackSpace[9] =  Zhou
+StackSpace[10] = 
+StackSpace[11] =  Pennick
+StackSpace[12] =  Idle
+StackSpace[13] =  Burris
+StackSpace[14] =  Rakowitz
+StackSpace[15] =  Jahnke
+StackSpace[16] =  Dean
+StackSpace[17] =  Garcia
+StackSpace[18] =  Braden
+StackSpace[19] =  Dean
+StackSpace[20] =  Burris
+StackSpace[21] =  Shannon
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+StackSpace[51] = 
+StackSpace[52] = 
+StackSpace[53] = 
+StackSpace[54] = 
+StackSpace[55] = 
+StackSpace[56] = 
+StackSpace[57] = 
+StackSpace[58] = 
+StackSpace[59] = 
+StackSpace[60] = 
+Reallocation succesful, push of string ' Farrack' in stack 2 successful.
+Stack information after reallocation: 
+Base of stack 1: 0
+Top of stack 1: 9
+Base of stack 2: 9
+Top of stack 2: 12
+Base of stack 3: 13
+Top of stack 3: 16
+Base of stack 4: 16
+Top of stack 4: 19
+Base of stack 5: 19
+Top of stack 5: 21
+Contents of memory after reallocation: 
+StackSpace[-12] = 
+StackSpace[-11] = 
+StackSpace[-10] = 
+StackSpace[-9] = 
+StackSpace[-8] = 
+StackSpace[-7] = 
+StackSpace[-6] = 
+StackSpace[-5] = 
+StackSpace[-4] = 
+StackSpace[-3] = 
+StackSpace[-2] = 
+StackSpace[-1] = 
+StackSpace[0] = 
+StackSpace[1] =  Braden
+StackSpace[2] =  Liu
+StackSpace[3] =  Shashidhar
+StackSpace[4] =  Ryba
+StackSpace[5] =  Varol
+StackSpace[6] =  Cooper
+StackSpace[7] =  Smith
+StackSpace[8] =  McGuire
+StackSpace[9] =  Zhou
+StackSpace[10] =  Pennick
+StackSpace[11] =  Idle
+StackSpace[12] =  Farrack
+StackSpace[13] =  Burris
+StackSpace[14] =  Burris
+StackSpace[15] =  Rakowitz
+StackSpace[16] =  Jahnke
+StackSpace[17] =  Garcia
+StackSpace[18] =  Braden
+StackSpace[19] =  Dean
+StackSpace[20] =  Burris
+StackSpace[21] =  Shannon
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+StackSpace[51] = 
+StackSpace[52] = 
+StackSpace[53] = 
+StackSpace[54] = 
+StackSpace[55] = 
+StackSpace[56] = 
+StackSpace[57] = 
+StackSpace[58] = 
+StackSpace[59] = 
+StackSpace[60] = 
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' McGuire' in stack 2...
+Successfully pushed String ' McGuire' in stack 2
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Voorhees' in stack 2...
+Error on push in stack 2: Stack Overflow. Attempting reallocation...
+Stack information before reallocation: 
+Base of stack 1: 0
+Top of stack 1: 9
+Base of stack 2: 9
+Top of stack 2: 14
+Base of stack 3: 13
+Top of stack 3: 16
+Base of stack 4: 16
+Top of stack 4: 19
+Base of stack 5: 19
+Top of stack 5: 21
+Contents of memory before reallocation:
+StackSpace[-12] = 
+StackSpace[-11] = 
+StackSpace[-10] = 
+StackSpace[-9] = 
+StackSpace[-8] = 
+StackSpace[-7] = 
+StackSpace[-6] = 
+StackSpace[-5] = 
+StackSpace[-4] = 
+StackSpace[-3] = 
+StackSpace[-2] = 
+StackSpace[-1] = 
+StackSpace[0] = 
+StackSpace[1] =  Braden
+StackSpace[2] =  Liu
+StackSpace[3] =  Shashidhar
+StackSpace[4] =  Ryba
+StackSpace[5] =  Varol
+StackSpace[6] =  Cooper
+StackSpace[7] =  Smith
+StackSpace[8] =  McGuire
+StackSpace[9] =  Zhou
+StackSpace[10] =  Pennick
+StackSpace[11] =  Idle
+StackSpace[12] =  Farrack
+StackSpace[13] =  McGuire
+StackSpace[14] =  Burris
+StackSpace[15] =  Rakowitz
+StackSpace[16] =  Jahnke
+StackSpace[17] =  Garcia
+StackSpace[18] =  Braden
+StackSpace[19] =  Dean
+StackSpace[20] =  Burris
+StackSpace[21] =  Shannon
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+StackSpace[51] = 
+StackSpace[52] = 
+StackSpace[53] = 
+StackSpace[54] = 
+StackSpace[55] = 
+StackSpace[56] = 
+StackSpace[57] = 
+StackSpace[58] = 
+StackSpace[59] = 
+StackSpace[60] = 
+Reallocation succesful, push of string ' Voorhees' in stack 2 successful.
+Stack information after reallocation: 
+Base of stack 1: 0
+Top of stack 1: 9
+Base of stack 2: 9
+Top of stack 2: 14
+Base of stack 3: 14
+Top of stack 3: 17
+Base of stack 4: 17
+Top of stack 4: 20
+Base of stack 5: 20
+Top of stack 5: 22
+Contents of memory after reallocation: 
+StackSpace[-12] = 
+StackSpace[-11] = 
+StackSpace[-10] = 
+StackSpace[-9] = 
+StackSpace[-8] = 
+StackSpace[-7] = 
+StackSpace[-6] = 
+StackSpace[-5] = 
+StackSpace[-4] = 
+StackSpace[-3] = 
+StackSpace[-2] = 
+StackSpace[-1] = 
+StackSpace[0] = 
+StackSpace[1] =  Braden
+StackSpace[2] =  Liu
+StackSpace[3] =  Shashidhar
+StackSpace[4] =  Ryba
+StackSpace[5] =  Varol
+StackSpace[6] =  Cooper
+StackSpace[7] =  Smith
+StackSpace[8] =  McGuire
+StackSpace[9] =  Zhou
+StackSpace[10] =  Pennick
+StackSpace[11] =  Idle
+StackSpace[12] =  Farrack
+StackSpace[13] =  McGuire
+StackSpace[14] =  Voorhees
+StackSpace[15] =  Burris
+StackSpace[16] =  Rakowitz
+StackSpace[17] =  Jahnke
+StackSpace[18] =  Garcia
+StackSpace[19] =  Braden
+StackSpace[20] =  Dean
+StackSpace[21] =  Burris
+StackSpace[22] =  Shannon
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+StackSpace[51] = 
+StackSpace[52] = 
+StackSpace[53] = 
+StackSpace[54] = 
+StackSpace[55] = 
+StackSpace[56] = 
+StackSpace[57] = 
+StackSpace[58] = 
+StackSpace[59] = 
+StackSpace[60] = 
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to pop:
+Attempting to pop stack 1...
+Popping of stack 1 successful, Result:  Zhou
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' Burris' in stack 2...
+Error on push in stack 2: Stack Overflow. Attempting reallocation...
+Stack information before reallocation: 
+Base of stack 1: 0
+Top of stack 1: 8
+Base of stack 2: 9
+Top of stack 2: 15
+Base of stack 3: 14
+Top of stack 3: 17
+Base of stack 4: 17
+Top of stack 4: 20
+Base of stack 5: 20
+Top of stack 5: 22
+Contents of memory before reallocation:
+StackSpace[-12] = 
+StackSpace[-11] = 
+StackSpace[-10] = 
+StackSpace[-9] = 
+StackSpace[-8] = 
+StackSpace[-7] = 
+StackSpace[-6] = 
+StackSpace[-5] = 
+StackSpace[-4] = 
+StackSpace[-3] = 
+StackSpace[-2] = 
+StackSpace[-1] = 
+StackSpace[0] = 
+StackSpace[1] =  Braden
+StackSpace[2] =  Liu
+StackSpace[3] =  Shashidhar
+StackSpace[4] =  Ryba
+StackSpace[5] =  Varol
+StackSpace[6] =  Cooper
+StackSpace[7] =  Smith
+StackSpace[8] =  McGuire
+StackSpace[9] =  Zhou
+StackSpace[10] =  Pennick
+StackSpace[11] =  Idle
+StackSpace[12] =  Farrack
+StackSpace[13] =  McGuire
+StackSpace[14] =  Voorhees
+StackSpace[15] =  Burris
+StackSpace[16] =  Rakowitz
+StackSpace[17] =  Jahnke
+StackSpace[18] =  Garcia
+StackSpace[19] =  Braden
+StackSpace[20] =  Dean
+StackSpace[21] =  Burris
+StackSpace[22] =  Shannon
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+StackSpace[51] = 
+StackSpace[52] = 
+StackSpace[53] = 
+StackSpace[54] = 
+StackSpace[55] = 
+StackSpace[56] = 
+StackSpace[57] = 
+StackSpace[58] = 
+StackSpace[59] = 
+StackSpace[60] = 
+Reallocation succesful, push of string ' Burris' in stack 2 successful.
+Stack information after reallocation: 
+Base of stack 1: 0
+Top of stack 1: 8
+Base of stack 2: 8
+Top of stack 2: 14
+Base of stack 3: 14
+Top of stack 3: 17
+Base of stack 4: 17
+Top of stack 4: 20
+Base of stack 5: 20
+Top of stack 5: 22
+Contents of memory after reallocation: 
+StackSpace[-12] = 
+StackSpace[-11] = 
+StackSpace[-10] = 
+StackSpace[-9] = 
+StackSpace[-8] = 
+StackSpace[-7] = 
+StackSpace[-6] = 
+StackSpace[-5] = 
+StackSpace[-4] = 
+StackSpace[-3] = 
+StackSpace[-2] = 
+StackSpace[-1] = 
+StackSpace[0] = 
+StackSpace[1] =  Braden
+StackSpace[2] =  Liu
+StackSpace[3] =  Shashidhar
+StackSpace[4] =  Ryba
+StackSpace[5] =  Varol
+StackSpace[6] =  Cooper
+StackSpace[7] =  Smith
+StackSpace[8] =  McGuire
+StackSpace[9] =  Pennick
+StackSpace[10] =  Idle
+StackSpace[11] =  Farrack
+StackSpace[12] =  McGuire
+StackSpace[13] =  Voorhees
+StackSpace[14] =  Burris
+StackSpace[15] =  Burris
+StackSpace[16] =  Rakowitz
+StackSpace[17] =  Jahnke
+StackSpace[18] =  Garcia
+StackSpace[19] =  Braden
+StackSpace[20] =  Dean
+StackSpace[21] =  Burris
+StackSpace[22] =  Shannon
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+StackSpace[51] = 
+StackSpace[52] = 
+StackSpace[53] = 
+StackSpace[54] = 
+StackSpace[55] = 
+StackSpace[56] = 
+StackSpace[57] = 
+StackSpace[58] = 
+StackSpace[59] = 
+StackSpace[60] = 
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by string to push:
+Attempting to push string ' McGuire' in stack 2...
+Error on push in stack 2: Stack Overflow. Attempting reallocation...
+Stack information before reallocation: 
+Base of stack 1: 0
+Top of stack 1: 8
+Base of stack 2: 8
+Top of stack 2: 15
+Base of stack 3: 14
+Top of stack 3: 17
+Base of stack 4: 17
+Top of stack 4: 20
+Base of stack 5: 20
+Top of stack 5: 22
+Contents of memory before reallocation:
+StackSpace[-12] = 
+StackSpace[-11] = 
+StackSpace[-10] = 
+StackSpace[-9] = 
+StackSpace[-8] = 
+StackSpace[-7] = 
+StackSpace[-6] = 
+StackSpace[-5] = 
+StackSpace[-4] = 
+StackSpace[-3] = 
+StackSpace[-2] = 
+StackSpace[-1] = 
+StackSpace[0] = 
+StackSpace[1] =  Braden
+StackSpace[2] =  Liu
+StackSpace[3] =  Shashidhar
+StackSpace[4] =  Ryba
+StackSpace[5] =  Varol
+StackSpace[6] =  Cooper
+StackSpace[7] =  Smith
+StackSpace[8] =  McGuire
+StackSpace[9] =  Pennick
+StackSpace[10] =  Idle
+StackSpace[11] =  Farrack
+StackSpace[12] =  McGuire
+StackSpace[13] =  Voorhees
+StackSpace[14] =  Burris
+StackSpace[15] =  Burris
+StackSpace[16] =  Rakowitz
+StackSpace[17] =  Jahnke
+StackSpace[18] =  Garcia
+StackSpace[19] =  Braden
+StackSpace[20] =  Dean
+StackSpace[21] =  Burris
+StackSpace[22] =  Shannon
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+StackSpace[51] = 
+StackSpace[52] = 
+StackSpace[53] = 
+StackSpace[54] = 
+StackSpace[55] = 
+StackSpace[56] = 
+StackSpace[57] = 
+StackSpace[58] = 
+StackSpace[59] = 
+StackSpace[60] = 
+Error in reallocation: Available space is less then minimum available space requirement. Terminating Program...

@@ -1,0 +1,607 @@
+1 for string multistack, 2 for Date multistack, 0 to exit:
+Enter the number of stacks to use:
+Enter the base of the main array:
+Enter the last location of the main array:
+Enter the base of useable area in main array:
+Enter the last location of useable area in main array:
+Enter the minimum percent of space wanted available to preform reallocation in decimal form:
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by date to push:
+Attempting to push date 'JANUARY 15, 1956' in stack 2...
+Successfully pushed date 'JANUARY 15, 1956' in stack 2
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by date to push:
+Attempting to push date 'FEBRUARY 14, 1957' in stack 2...
+Successfully pushed date 'FEBRUARY 14, 1957' in stack 2
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by date to push:
+Attempting to push date 'SEPTEMBER 16, 1946' in stack 3...
+Successfully pushed date 'SEPTEMBER 16, 1946' in stack 3
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by date to push:
+Attempting to push date 'SEPTEMBER 17, 1842' in stack 2...
+Successfully pushed date 'SEPTEMBER 17, 1842' in stack 2
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by date to push:
+Attempting to push date 'APRIL 1, 2015' in stack 2...
+Successfully pushed date 'APRIL 1, 2015' in stack 2
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by date to push:
+Attempting to push date 'DECEMBER 24, 1996' in stack 1...
+Successfully pushed date 'DECEMBER 24, 1996' in stack 1
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to pop:
+Attempting to pop stack 1...
+Popping of stack 1 successful, Result: DECEMBER 24, 1996
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by date to push:
+Attempting to push date 'MARCH 16, 1992' in stack 3...
+Error on push in stack 3: Stack Overflow. Attempting reallocation...
+Stack information before reallocation: 
+Base of stack 1: 4
+Top of stack 1: 4
+Base of stack 2: 9
+Top of stack 2: 13
+Base of stack 3: 14
+Top of stack 3: 16
+Contents of memory before reallocation:
+StackSpace[0] = 
+StackSpace[1] = 
+StackSpace[2] = 
+StackSpace[3] = 
+StackSpace[4] = 
+StackSpace[5] = DECEMBER 24, 1996
+StackSpace[6] = 
+StackSpace[7] = 
+StackSpace[8] = 
+StackSpace[9] = 
+StackSpace[10] = JANUARY 15, 1956
+StackSpace[11] = FEBRUARY 14, 1957
+StackSpace[12] = SEPTEMBER 17, 1842
+StackSpace[13] = APRIL 1, 2015
+StackSpace[14] = 
+StackSpace[15] = SEPTEMBER 16, 1946
+StackSpace[16] = 
+StackSpace[17] = 
+StackSpace[18] = 
+StackSpace[19] = 
+StackSpace[20] = 
+StackSpace[21] = 
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+Reallocation succesful, push of date 'MARCH 16, 1992' in stack 3 successful.
+Stack information after reallocation: 
+Base of stack 1: 4
+Top of stack 1: 4
+Base of stack 2: 4
+Top of stack 2: 8
+Base of stack 3: 11
+Top of stack 3: 13
+Contents of memory after reallocation: 
+StackSpace[0] = 
+StackSpace[1] = 
+StackSpace[2] = 
+StackSpace[3] = 
+StackSpace[4] = 
+StackSpace[5] = JANUARY 15, 1956
+StackSpace[6] = FEBRUARY 14, 1957
+StackSpace[7] = SEPTEMBER 17, 1842
+StackSpace[8] = APRIL 1, 2015
+StackSpace[9] = 
+StackSpace[10] = JANUARY 15, 1956
+StackSpace[11] = FEBRUARY 14, 1957
+StackSpace[12] = SEPTEMBER 16, 1946
+StackSpace[13] = MARCH 16, 1992
+StackSpace[14] = 
+StackSpace[15] = SEPTEMBER 16, 1946
+StackSpace[16] = 
+StackSpace[17] = 
+StackSpace[18] = 
+StackSpace[19] = 
+StackSpace[20] = 
+StackSpace[21] = 
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to pop:
+Attempting to pop stack 1...
+Error in stack 1: Stack Underflow
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by date to push:
+Attempting to push date 'JANUARY 15, 1956' in stack 2...
+Successfully pushed date 'JANUARY 15, 1956' in stack 2
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by date to push:
+Attempting to push date 'APRIL 4, 1492' in stack 3...
+Successfully pushed date 'APRIL 4, 1492' in stack 3
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by date to push:
+Attempting to push date 'DECEMBER 6, 1991' in stack 3...
+Successfully pushed date 'DECEMBER 6, 1991' in stack 3
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by date to push:
+Attempting to push date 'MARCH 5, 1886' in stack 3...
+Error on push in stack 3: Stack Overflow. Attempting reallocation...
+Stack information before reallocation: 
+Base of stack 1: 4
+Top of stack 1: 4
+Base of stack 2: 4
+Top of stack 2: 9
+Base of stack 3: 11
+Top of stack 3: 16
+Contents of memory before reallocation:
+StackSpace[0] = 
+StackSpace[1] = 
+StackSpace[2] = 
+StackSpace[3] = 
+StackSpace[4] = 
+StackSpace[5] = JANUARY 15, 1956
+StackSpace[6] = FEBRUARY 14, 1957
+StackSpace[7] = SEPTEMBER 17, 1842
+StackSpace[8] = APRIL 1, 2015
+StackSpace[9] = JANUARY 15, 1956
+StackSpace[10] = JANUARY 15, 1956
+StackSpace[11] = FEBRUARY 14, 1957
+StackSpace[12] = SEPTEMBER 16, 1946
+StackSpace[13] = MARCH 16, 1992
+StackSpace[14] = APRIL 4, 1492
+StackSpace[15] = DECEMBER 6, 1991
+StackSpace[16] = 
+StackSpace[17] = 
+StackSpace[18] = 
+StackSpace[19] = 
+StackSpace[20] = 
+StackSpace[21] = 
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+Reallocation succesful, push of date 'MARCH 5, 1886' in stack 3 successful.
+Stack information after reallocation: 
+Base of stack 1: 4
+Top of stack 1: 4
+Base of stack 2: 4
+Top of stack 2: 9
+Base of stack 3: 9
+Top of stack 3: 14
+Contents of memory after reallocation: 
+StackSpace[0] = 
+StackSpace[1] = 
+StackSpace[2] = 
+StackSpace[3] = 
+StackSpace[4] = 
+StackSpace[5] = JANUARY 15, 1956
+StackSpace[6] = FEBRUARY 14, 1957
+StackSpace[7] = SEPTEMBER 17, 1842
+StackSpace[8] = APRIL 1, 2015
+StackSpace[9] = JANUARY 15, 1956
+StackSpace[10] = SEPTEMBER 16, 1946
+StackSpace[11] = MARCH 16, 1992
+StackSpace[12] = APRIL 4, 1492
+StackSpace[13] = DECEMBER 6, 1991
+StackSpace[14] = MARCH 5, 1886
+StackSpace[15] = DECEMBER 6, 1991
+StackSpace[16] = 
+StackSpace[17] = 
+StackSpace[18] = 
+StackSpace[19] = 
+StackSpace[20] = 
+StackSpace[21] = 
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by date to push:
+Attempting to push date 'OCTOBER 24, 1996' in stack 1...
+Error on push in stack 1: Stack Overflow. Attempting reallocation...
+Stack information before reallocation: 
+Base of stack 1: 4
+Top of stack 1: 5
+Base of stack 2: 4
+Top of stack 2: 9
+Base of stack 3: 9
+Top of stack 3: 14
+Contents of memory before reallocation:
+StackSpace[0] = 
+StackSpace[1] = 
+StackSpace[2] = 
+StackSpace[3] = 
+StackSpace[4] = 
+StackSpace[5] = JANUARY 15, 1956
+StackSpace[6] = FEBRUARY 14, 1957
+StackSpace[7] = SEPTEMBER 17, 1842
+StackSpace[8] = APRIL 1, 2015
+StackSpace[9] = JANUARY 15, 1956
+StackSpace[10] = SEPTEMBER 16, 1946
+StackSpace[11] = MARCH 16, 1992
+StackSpace[12] = APRIL 4, 1492
+StackSpace[13] = DECEMBER 6, 1991
+StackSpace[14] = MARCH 5, 1886
+StackSpace[15] = DECEMBER 6, 1991
+StackSpace[16] = 
+StackSpace[17] = 
+StackSpace[18] = 
+StackSpace[19] = 
+StackSpace[20] = 
+StackSpace[21] = 
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+Reallocation succesful, push of date 'OCTOBER 24, 1996' in stack 1 successful.
+Stack information after reallocation: 
+Base of stack 1: 4
+Top of stack 1: 5
+Base of stack 2: 5
+Top of stack 2: 10
+Base of stack 3: 10
+Top of stack 3: 15
+Contents of memory after reallocation: 
+StackSpace[0] = 
+StackSpace[1] = 
+StackSpace[2] = 
+StackSpace[3] = 
+StackSpace[4] = 
+StackSpace[5] = OCTOBER 24, 1996
+StackSpace[6] = JANUARY 15, 1956
+StackSpace[7] = FEBRUARY 14, 1957
+StackSpace[8] = SEPTEMBER 17, 1842
+StackSpace[9] = APRIL 1, 2015
+StackSpace[10] = JANUARY 15, 1956
+StackSpace[11] = SEPTEMBER 16, 1946
+StackSpace[12] = MARCH 16, 1992
+StackSpace[13] = APRIL 4, 1492
+StackSpace[14] = DECEMBER 6, 1991
+StackSpace[15] = MARCH 5, 1886
+StackSpace[16] = 
+StackSpace[17] = 
+StackSpace[18] = 
+StackSpace[19] = 
+StackSpace[20] = 
+StackSpace[21] = 
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by date to push:
+Attempting to push date 'NOVEMBER 23, 1996' in stack 1...
+Error on push in stack 1: Stack Overflow. Attempting reallocation...
+Stack information before reallocation: 
+Base of stack 1: 4
+Top of stack 1: 6
+Base of stack 2: 5
+Top of stack 2: 10
+Base of stack 3: 10
+Top of stack 3: 15
+Contents of memory before reallocation:
+StackSpace[0] = 
+StackSpace[1] = 
+StackSpace[2] = 
+StackSpace[3] = 
+StackSpace[4] = 
+StackSpace[5] = OCTOBER 24, 1996
+StackSpace[6] = JANUARY 15, 1956
+StackSpace[7] = FEBRUARY 14, 1957
+StackSpace[8] = SEPTEMBER 17, 1842
+StackSpace[9] = APRIL 1, 2015
+StackSpace[10] = JANUARY 15, 1956
+StackSpace[11] = SEPTEMBER 16, 1946
+StackSpace[12] = MARCH 16, 1992
+StackSpace[13] = APRIL 4, 1492
+StackSpace[14] = DECEMBER 6, 1991
+StackSpace[15] = MARCH 5, 1886
+StackSpace[16] = 
+StackSpace[17] = 
+StackSpace[18] = 
+StackSpace[19] = 
+StackSpace[20] = 
+StackSpace[21] = 
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+Reallocation succesful, push of date 'NOVEMBER 23, 1996' in stack 1 successful.
+Stack information after reallocation: 
+Base of stack 1: 4
+Top of stack 1: 6
+Base of stack 2: 5
+Top of stack 2: 10
+Base of stack 3: 10
+Top of stack 3: 15
+Contents of memory after reallocation: 
+StackSpace[0] = 
+StackSpace[1] = 
+StackSpace[2] = 
+StackSpace[3] = 
+StackSpace[4] = 
+StackSpace[5] = OCTOBER 24, 1996
+StackSpace[6] = NOVEMBER 23, 1996
+StackSpace[7] = FEBRUARY 14, 1957
+StackSpace[8] = SEPTEMBER 17, 1842
+StackSpace[9] = APRIL 1, 2015
+StackSpace[10] = JANUARY 15, 1956
+StackSpace[11] = SEPTEMBER 16, 1946
+StackSpace[12] = MARCH 16, 1992
+StackSpace[13] = APRIL 4, 1492
+StackSpace[14] = DECEMBER 6, 1991
+StackSpace[15] = MARCH 5, 1886
+StackSpace[16] = 
+StackSpace[17] = 
+StackSpace[18] = 
+StackSpace[19] = 
+StackSpace[20] = 
+StackSpace[21] = 
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+1 to push, 2 to pop, 0 to exit:
+Enter number of stack to push in followed by date to push:
+Attempting to push date 'NOVEMBER 2, 1990' in stack 1...
+Error on push in stack 1: Stack Overflow. Attempting reallocation...
+Stack information before reallocation: 
+Base of stack 1: 4
+Top of stack 1: 7
+Base of stack 2: 5
+Top of stack 2: 10
+Base of stack 3: 10
+Top of stack 3: 15
+Contents of memory before reallocation:
+StackSpace[0] = 
+StackSpace[1] = 
+StackSpace[2] = 
+StackSpace[3] = 
+StackSpace[4] = 
+StackSpace[5] = OCTOBER 24, 1996
+StackSpace[6] = NOVEMBER 23, 1996
+StackSpace[7] = FEBRUARY 14, 1957
+StackSpace[8] = SEPTEMBER 17, 1842
+StackSpace[9] = APRIL 1, 2015
+StackSpace[10] = JANUARY 15, 1956
+StackSpace[11] = SEPTEMBER 16, 1946
+StackSpace[12] = MARCH 16, 1992
+StackSpace[13] = APRIL 4, 1492
+StackSpace[14] = DECEMBER 6, 1991
+StackSpace[15] = MARCH 5, 1886
+StackSpace[16] = 
+StackSpace[17] = 
+StackSpace[18] = 
+StackSpace[19] = 
+StackSpace[20] = 
+StackSpace[21] = 
+StackSpace[22] = 
+StackSpace[23] = 
+StackSpace[24] = 
+StackSpace[25] = 
+StackSpace[26] = 
+StackSpace[27] = 
+StackSpace[28] = 
+StackSpace[29] = 
+StackSpace[30] = 
+StackSpace[31] = 
+StackSpace[32] = 
+StackSpace[33] = 
+StackSpace[34] = 
+StackSpace[35] = 
+StackSpace[36] = 
+StackSpace[37] = 
+StackSpace[38] = 
+StackSpace[39] = 
+StackSpace[40] = 
+StackSpace[41] = 
+StackSpace[42] = 
+StackSpace[43] = 
+StackSpace[44] = 
+StackSpace[45] = 
+StackSpace[46] = 
+StackSpace[47] = 
+StackSpace[48] = 
+StackSpace[49] = 
+StackSpace[50] = 
+Error in reallocation: Available space is less then minimum available space requirement. Terminating Program...

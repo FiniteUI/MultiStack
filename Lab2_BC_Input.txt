@@ -1,0 +1,84 @@
+1
+5
+-12
+60
+0
+22
+0.05
+1
+1 Braden
+1
+1 Liu
+1
+1 Shashidhar
+1
+3 Shannon
+1
+4 Garcia
+1
+4 Braden
+2
+3
+1
+5 Burris
+1
+5 Shannon
+2
+3
+1
+3 Burris
+1
+1 Ryba
+1
+1 Varol
+1
+3 Rakowitz
+1
+1 Cooper
+1
+1 Smith
+1
+1 McGuire
+1
+3 Jahnke
+1
+4 Dean
+1
+1 Zhou
+1
+2 Pennick
+1
+2 Idle
+1
+2 Farrack
+1
+2 McGuire
+1
+2 Voorhees
+2
+1
+1
+2 Burris
+1
+2 McGuire
+1
+3 Cooper
+1
+4 Chen
+2
+2
+1
+3 Bing
+1
+1 Cho
+1
+1 An
+1
+1 Varol
+1
+3 Hope
+1
+3 Pray
+1
+3 NoHope
+0
